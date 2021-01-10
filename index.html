@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Petit bateau</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body onkeydown="keydown(event)">
+		<!-- playable ground -->
+		<div id="upper_grid" class="grid">
+		</div>
+
+		<div id="lower_grid" class="grid">
+		</div>
+
+		<!-- player -->
+		<div class="ship" id="player">
+			<img src="Sprites/Boats/player_ship.png" class="sprite">
+			<!-- <img src="Sprites/player_sail.png" id="psail"> -->
+		</div>
+
+
+		<!-- import javascript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+		<script src="Scripts/const.js"></script>
+		<script src="Scripts/grid.js"></script>
+		<script src="Scripts/player.js"></script>
+		<script src="Scripts/events.js"></script>
+		<script src="Scripts/enemy.js"></script>
+		<script src="Scripts/collision.js"></script>
+		<script src="Scripts/tresure.js"></script>
+
+		<script src="Scripts/main.js"></script>
+	</body>
+</html>
